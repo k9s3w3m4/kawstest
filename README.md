@@ -56,16 +56,16 @@ gulp.task('newBranch', function() {
  * add the host config in `endpoints.js`
  
 ```
-...
+
 var host = {
     master: require('./master.js'),
     branch: require('./branch.js'),
     newBranch: require('./newBranch.js')
 };
-...
+
 ```
  * add one javascript file named `newBranch` under `config` folder,and config this file like others
-``` 
+
 #SuperTest简介和写法
 网址：http://www.imooc.com/article/2631
 
