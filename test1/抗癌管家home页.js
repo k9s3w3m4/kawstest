@@ -25,5 +25,5 @@ describe('Test Demo.', function() {
             .expect(200)
             .end(done);
     });
-    console.log('You are in 1' + data().name);
+    console.log('You are in ' + data().name);
 });

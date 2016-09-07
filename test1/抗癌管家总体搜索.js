@@ -2,7 +2,7 @@
 var data = require('../config/endpoints'),
     request = require('supertest')(data().url);
 
-describe('all search.', function() {
+describe('Test Demo.', function() {
 
     this.timeout(10000);
 

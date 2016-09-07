@@ -14,7 +14,7 @@ gulp.task('v3', function() {
 
 function runTest() {
 	return gulp
-		.src(['test/*.js'], { read: false})
+		.src(['test/*.js','test1/*.js'], { read: false})
 		.pipe(mocha({
 			reporter: 'spec',
 			globals: {
