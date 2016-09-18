@@ -11,7 +11,10 @@ gulp.task('v3', function() {
 	require('./config/endpoints')('v3');
 	runTest();
 });
-
+gulp.task('online', function() {
+	require('./config/endpoints')('online');
+	runTest();
+});
 function runTest() {
 	return gulp
 		.src(['test/*.js','test1/*.js'], { read: false})

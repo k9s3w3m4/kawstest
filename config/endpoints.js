@@ -1,6 +1,8 @@
 var host = {
     v4: require('./master.js'),
-    v3: require('./branch.js')
+    v3: require('./branch.js'),
+	online: require('./online.js')
+
 };
 
 var ENV;

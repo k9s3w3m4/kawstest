@@ -132,5 +132,5 @@ describe('part search.', function() {
             .expect(200)
             .end(done);
     });		
-    console.log('You are in ' + data().name);
+    console.log('You are in serch' + data().name);
 });
